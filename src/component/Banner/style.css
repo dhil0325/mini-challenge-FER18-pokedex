@@ -1,0 +1,48 @@
+.banner-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    margin-left: 156px;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 20px;
+}
+
+.banner-text button {
+    width: 150px;
+    height: 40px;
+    background-color: #73D677;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text button:hover {
+    background-color: #F5DB13;
+}
+
+.banner-text button:active {
+    background-color: #73D677;
+    box-shadow: inset 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.banner-image {
+    margin-left: 647px;
+}
+
+
+
