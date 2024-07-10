@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pokedex-card-container {
+    display: flex;
+    border-radius: 8px;
+    box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
+    background-color: #F5DB13;
+    width: 351px;
+    height: 136px;
+    flex-direction: row;
+    gap: 20px;  
+    padding-left: 150px;
+}
+
+.pokedex-card-container img {
+    margin-top: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+.pokedex-card-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.pokedex-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.pokedex-card-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.pokedex-card-abilities {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.pokedex-card-types {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

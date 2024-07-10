@@ -1,11 +1,14 @@
-*{
-    background-color: #F5DB13;
-}
+
 .navlink-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);   
+    box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
+    background-color: #F5DB13; 
+}
+
+.navlink-container img {
+    background-color: #F5DB13; 
 }
 
 .navlink-text {
@@ -19,10 +22,12 @@
     list-style: none;
     text-align: center;
     justify-content: center;
+    background-color: #F5DB13; 
 }
 
 .navlink-text a {
     text-decoration: none;
+    background-color: #F5DB13; 
 }
 
 .navlink-text a:hover {
