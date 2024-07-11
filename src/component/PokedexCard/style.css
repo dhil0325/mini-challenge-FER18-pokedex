@@ -1,6 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
+}
+
+.pokedex-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
 }
 
 .pokedex-card-container {
@@ -8,23 +17,20 @@
     border-radius: 8px;
     box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
     background-color: #F5DB13;
-    width: 351px;
-    height: 136px;
-    flex-direction: row;
-    gap: 20px;  
-    padding-left: 150px;
 }
 
 .pokedex-card-container img {
     margin-top: 20px;
     width: 150px;
     height: 100px;
+    margin-left: 20px;
 }
 
 .pokedex-card-container h1 {
     font-size: 20px;
     font-weight: 700;
 }
+
 .pokedex-card-content {
     display: flex;
     flex-direction: column;
@@ -32,10 +38,29 @@
     padding-top: 8px;
     padding-left: 8px;
 }
+
+.pokedex-card-content h1 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .pokedex-card-stats {
     display: flex;
-    flex-direction: row;
-    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pokedex-card-stats h2 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0;
 }
 
 .pokedex-card-abilities {
@@ -46,6 +71,88 @@
 
 .pokedex-card-types {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     gap: 10px;
+    padding-bottom: 10px;
+}
+
+.pokedex-card-types p {
+    display: inline;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+
+.type-normal {
+    background-color: #a8a878; 
+}
+
+.type-poison {
+    background-color: purple; 
+}
+
+.type-grass {
+    background-color: green; 
+}
+
+.type-psychic {
+    background-color: pink; 
+}
+
+.type-fire {
+    background-color: red; 
+}
+
+.type-flying {
+    background-color: blue; 
+}
+
+.type-fighting {    
+    background-color: brown; 
+}
+
+.type-ground {
+    background-color: saddlebrown; 
+}
+
+.type-rock {
+    background-color: gray; 
+}
+
+.type-ghost {
+    background-color: black;
+    color: white;
+}
+
+.type-water {
+    background-color: aqua;
+}
+
+.type-fairy {
+    background-color: burlywood;
+}
+
+.type-electric {
+    background-color: yellow;
+}
+
+.type-dragon {
+    background-color: blueviolet;
+}
+
+.type-steel {
+    background-color: lightgray;
+}
+
+.type-ice {
+    background-color: lightblue;
+}
+
+.type-bug {
+    background-color: greenyellow;
 }
