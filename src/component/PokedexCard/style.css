@@ -15,8 +15,8 @@
 .pokedex-card-container {
     display: flex;
     border-radius: 8px;
+    border: black solid 2px;
     box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
-    background-color: #F5DB13;
 }
 
 .pokedex-card-container img {

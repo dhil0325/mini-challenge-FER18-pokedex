@@ -19,7 +19,7 @@ const PokedexCard = ({name, url}) => {
             const response = await axios.get(url);
             setItemData((prev) => ({
                 ...prev,
-                imageUrl: response.data.sprites.front_default,
+                imageUrl: response.data.sprites.other.dream_world.front_default,
                 attack: response.data.stats[1].base_stat,
                 defense: response.data.stats[2].base_stat,
                 type1: response.data.types[0].type.name,
