@@ -1,15 +1,14 @@
-import Banner from "../../component/Banner"
-import NavLinks from "../../component/NavLinks"
-import './style.css'
+import Banner from "../../component/Banner";
+import NavLinks from "../../component/NavLinks";
+import "./style.css";
 
-const Home = () =>{
+const Home = () => {
+  return (
+    <div className="home-container">
+      <NavLinks />
+      <Banner />
+    </div>
+  );
+};
 
-    return (
-        <div className='home-container'>
-            <NavLinks />
-            <Banner />
-        </div>
-    )
-}
-
-export default Home
+export default Home;
