@@ -1,57 +1,57 @@
 .banner-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .banner-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .text-container h1 {
-    font-size: 50px;
-    font-weight: 700;
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.text-container p { 
-    font-size: 20px;
-    font-weight: 400;
+.text-container p {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .see-pokemons-button {
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #F5DB13;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f5db13;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .see-pokemons-button:hover {
-    background-color: #73D677;
-    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);
-    color: #000;
+  background-color: #73d677;
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);
+  color: #000;
 }
 
 .see-pokemons-button:active {
-    background-color: #F5DB13;
-    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);
-    color: #000;
+  background-color: #f5db13;
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.5);
+  color: #000;
 }

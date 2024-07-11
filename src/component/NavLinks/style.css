@@ -1,41 +1,39 @@
-
 .navlink-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
-    background-color: #F5DB13; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f5db13;
 }
 
 .navlink-container img {
-    background-color: #F5DB13; 
+  background-color: #f5db13;
 }
 
 .navlink-text {
-    display: flex;
-    gap: 66px;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-    background-color: #F5DB13; 
+  display: flex;
+  gap: 66px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  background-color: #f5db13;
 }
 
 .navlink-text a {
-    text-decoration: none;
-    background-color: #F5DB13; 
+  text-decoration: none;
+  background-color: #f5db13;
 }
 
 .navlink-text a:hover {
-    color: #73D677;
-    transition: 0.5s;
+  color: #73d677;
+  transition: 0.5s;
 }
 
 .navlink-text a:active {
-    color: #73D677;
+  color: #73d677;
 }
-
