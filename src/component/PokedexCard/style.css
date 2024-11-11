@@ -15,15 +15,13 @@
 .pokedex-card-container {
     display: flex;
     border-radius: 8px;
-    border: black solid 2px;
-    box-shadow: -5px -5px 4px rgba(0, 0, 0, 0.2);
+    /* border: black solid 2px; */
+    /* box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .pokedex-card-container img {
-    margin-top: 20px;
-    width: 150px;
-    height: 100px;
-    margin-left: 20px;
+    width: 200px;
+    height: 150px;
 }
 
 .pokedex-card-container h1 {
@@ -43,24 +41,41 @@
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
+    text-align:left;
 }
 
 .pokedex-card-stats {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
-.pokedex-card-stats h2 {
+.pokedex-card-attack, .pokedex-card-defense {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokedex-card-attack h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid black;
-    margin: 0;
+    border: 5px solid black;
+    margin-left: 5px;
+}
+
+.pokedex-card-defense h2 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-left: 10px;
 }
 
 .pokedex-card-abilities {
@@ -73,19 +88,21 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    border-radius: 50%;
     gap: 10px;
     padding-bottom: 10px;
 }
 
 .pokedex-card-types p {
     display: inline;
+    width: 60px;
+    height: 15px;
     padding: 5px 10px;
     text-align: center;
     text-transform: capitalize;
-    border-radius: 5px;
+    border-radius: 50px;
     font-weight: 600;
     font-size: 12px;
-    
 }
 
 .type-normal {
@@ -155,4 +172,103 @@
 
 .type-bug {
     background-color: greenyellow;
+}
+
+.pokedex-card-image {
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 232px;
+}
+
+.pokedex-card-image img {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+}
+
+.pokedex-card-image.normal {
+    background-color: #a8a878;
+}
+
+.pokedex-card-image.poison {
+    background-color: purple;
+
+}
+
+.pokedex-card-image.grass {
+    background-color: green;
+
+}
+
+.pokedex-card-image.psychic {
+    background-color: pink;
+
+}
+
+.pokedex-card-image.fire {
+    background-color: red;
+
+}
+
+.pokedex-card-image.flying {
+    background-color: blue;
+
+}
+
+.pokedex-card-image.fighting {
+    background-color: brown;
+
+}
+
+.pokedex-card-image.ground {
+    background-color: saddlebrown;
+
+}
+
+.pokedex-card-image.rock {
+    background-color: gray;
+
+}
+
+.pokedex-card-image.ghost {
+    background-color: black;
+
+}
+
+.pokedex-card-image.water {
+    background-color: aqua;
+
+}
+
+.pokedex-card-image.fairy {
+    background-color: burlywood;
+
+}
+
+.pokedex-card-image.electric {
+    background-color: yellow;
+
+}
+
+.pokedex-card-image.dragon {
+    background-color: blueviolet;
+
+}
+
+.pokedex-card-image.steel {
+    background-color: lightgray;
+
+}
+
+.pokedex-card-image.ice {
+    background-color: lightblue ;
+
+}
+
+.pokedex-card-image.bug {
+    background-color: greenyellow;
+
 }

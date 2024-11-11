@@ -1,1 +1,1 @@
-export const PokeApi = "https://pokeapi.co/api/v2/pokemon?limit=150"
+export const PokeApi = "https://pokeapi.co/api/v2/pokemon?limit=100"

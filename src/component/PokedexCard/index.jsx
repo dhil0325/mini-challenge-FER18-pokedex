@@ -34,12 +34,14 @@ const PokedexCard = ({ name, url }) => {
         <div className="pokedex-card-content">
           <h1>{itemData.name}</h1>
           <div className="pokedex-card-stats">
-            <h2>{itemData.attack}</h2>
-            <h2>{itemData.defense}</h2>
-          </div>
-          <div className="pokedex-card-abilities">
-            <h2>Attack</h2>
-            <h2>Defense</h2>
+            <div className="pokedex-card-attack">
+              <h2>{itemData.attack}</h2>
+              <h3>Attack</h3>
+            </div>
+            <div className="pokedex-card-defense">
+              <h2>{itemData.defense}</h2>            
+              <h3>Defense</h3>
+            </div>
           </div>
           <div className="pokedex-card-types">
             <p className={`type-${itemData.type1.toLowerCase()}`}>
@@ -50,7 +52,9 @@ const PokedexCard = ({ name, url }) => {
             </p>
           </div>
         </div>
-        <img src={itemData.imageUrl} />
+        <div className={`pokedex-card-image ${itemData.type1.toLowerCase()}`}>
+          <img src={itemData.imageUrl} alt={itemData.name}  />
+        </div>
       </div>
     </div>
   );
